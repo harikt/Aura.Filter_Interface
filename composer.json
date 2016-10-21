@@ -1,0 +1,14 @@
+{
+    "name": "aura/filter-interface",
+    "description": "An interface package for validation and sanitizing library",
+    "type": "library",
+    "license": "MIT",
+    "require": {
+        "php": ">=5.5.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Aura\\Filter_Interface\\": "src/"
+        }
+    }
+}
