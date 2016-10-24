@@ -29,13 +29,4 @@ interface FilterInterface
      *
      */
     public function apply(&$values);
-
-    /**
-     *
-     * Returns the failures.
-     *
-     * @return \ArrayObject
-     *
-     */
-    public function getFailures();
 }
