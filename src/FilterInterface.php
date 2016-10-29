@@ -34,7 +34,7 @@ interface FilterInterface
      *
      * Returns the failures.
      *
-     * @return \ArrayObject
+     * @return FailureCollection
      *
      */
     public function getFailures();
