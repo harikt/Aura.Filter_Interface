@@ -27,7 +27,7 @@ interface FailureCollectionInterface
      *
      * @param string|array $messages The failure messages.
      *
-     * @return null
+     * @return void
      *
      */
     public function addMessagesForField($field, $messages);
