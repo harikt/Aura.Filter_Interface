@@ -30,7 +30,7 @@ interface FailureCollectionInterface
      * @return null
      *
      */
-    public function addMessagesForField($field, $messages)
+    public function addMessagesForField($field, $messages);
 
     /**
      *
